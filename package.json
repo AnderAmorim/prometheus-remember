@@ -1,0 +1,25 @@
+{
+  "name": "prometheus-remember",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnderAmorim/prometheus-remember.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnderAmorim/prometheus-remember/issues"
+  },
+  "homepage": "https://github.com/AnderAmorim/prometheus-remember#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "prom-client": "^14.0.1"
+  }
+}
